@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="splide.min.css" />
+		<title>ICEHOT</title>
+		<style>
+			.splide__pagination {
+				bottom: 1rem;
+			}
+			.splide__pagination__page {
+				background: #fe707a;
+			}
+			.splide__pagination__page.is-active {
+				background: #ea5b64;
+			}
+			.splide__arrow {
+				z-index: 10;
+				top: 97%;
+			}
+			.splide__arrow--prev {
+				left: 1%;
+			}
+			.splide__arrow--next {
+				right: 1%;
+			}
+			@media screen and (min-width: 768px) {
+				.splide__arrow {
+					z-index: 10;
+					top: 93%;
+				}
+			}
+			@media screen and (min-width: 1024px) {
+				.splide__arrow {
+					top: 50%;
+				}
+				.splide__arrow--prev {
+					left: 46%;
+				}
+				.splide__arrow--next {
+					right: 14%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="w-full h-0 overflow-hidden relative pb-[50%] z-[-2]">
+				<img
+					src="img/banner_web3.png"
+					width="1920"
+					height="960"
+					alt="ICEHOT"
+					class="
+						w-full
+						h-full
+						absolute
+						top-0
+						left-0
+						object-cover object-left-top
+						pointer-events-none
+					"
+				/>
+			</div>
+		</header>
+		<section class="container my-6 md:my-10">
+			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+				<article>
+					<h3 class="uppercase richs-text-main font-bold text-xl">
+						Cronograma - live
+					</h3>
+					<p class="text-lg mb-6 richs-text">
+						Te detallamos nuestro cronograma del evento ICEHOT Magic Beverages
+					</p>
+					<div class="richs-bg flex items-center rounded-[20px] p-4 my-4">
+						<img
+							src="img/icon1.png"
+							alt="icon 1"
+							width="100"
+							height="100"
+							class="w-16 md:w-16 xl:w-24 inline-block mr-4"
+						/>
+
+						<div>
+							<h3 class="uppercase text-white text-lg font-bold">Master class</h3>
+							<p class="text-gray-200 text-base leading-snug">
+								<span class="text-white font-bold">“Combinaciones Mágicas”</span> por
+								nuestro bartender Alexander Loaiza y nuestro invitado barista, Francisco
+								Garcia.
+							</p>
+						</div>
+					</div>
+					<div class="richs-bg flex items-center rounded-[20px] p-4 my-4">
+						<img
+							src="img/icon2.png"
+							alt="icon 1"
+							width="100"
+							height="100"
+							class="w-16 md:w-16 xl:w-24 inline-block mr-4"
+						/>
+
+						<div>
+							<h3 class="uppercase text-white text-lg font-bold">Master class</h3>
+							<p class="text-gray-200 text-base leading-snug">
+								<span class="text-white font-bold">“Combinaciones Mágicas”</span> por
+								nuestro bartender Alexander Loaiza y nuestro invitado barista, Francisco
+								Garcia.
+							</p>
+						</div>
+					</div>
+					<div class="richs-bg flex items-center rounded-[20px] p-4 my-4">
+						<img
+							src="img/icon3.png"
+							alt="icon 1"
+							width="100"
+							height="100"
+							class="w-16 md:w-16 xl:w-24 inline-block mr-4"
+						/>
+						<div>
+							<h3 class="uppercase text-white text-lg font-bold">Master class</h3>
+							<p class="text-gray-200 text-base leading-snug">
+								<span class="text-white font-bold">“Combinaciones Mágicas”</span> por
+								nuestro bartender Alexander Loaiza y nuestro invitado barista, Francisco
+								Garcia.
+							</p>
+						</div>
+					</div>
+				</article>
+				<div>Hola</div>
+			</div>
+		</section>
+
+		<section class="bg-[#002c69] md:bg-slider">
+			<div class="splide container md:h-[620px] lg:h-[585px]">
+				<div class="splide__track">
+					<ul class="splide__list">
+						<li class="splide__slide">
+							<article class="grid grid-cols-1 md:grid-cols-12 gap-8 pt-8 pb-14">
+								<div class="col-span-1 md:col-span-5 md:mt-10">
+									<h3 class="uppercase text-white font-bold text-6xl">Purés</h3>
+									<p class="text-lg text-gray-200 mt-6 mb-7">
+										¡Purés hechos con fruta. Ideal para frappés, limonadas saborizadas,
+										cócteles y más! Se pueden usar para diluir, licuar o mezclar en una
+										coctelera.
+									</p>
+									<h5 class="uppercase text-white font-bold text-lg">
+										DISPONIBLE EN 6 SABORES
+									</h5>
+									<span class="block h-[2px] w-72 bg-white mt-[6px] mb-2"></span>
+									<div class="grid grid-cols-4 w-72 -ml-2">
+										<div class="flex flex-col items-center my-3">
+											<img src="img/icono_fresa.png" width="50" height="50" alt="Fresa" />
+											<span class="uppercase text-white text-[10px] block mt-2"
+												>Fresa</span
+											>
+										</div>
+										<div class="flex flex-col items-center my-3">
+											<img
+												src="img/icono_frutos_rojos.png"
+												width="50"
+												height="50"
+												alt="Fresa"
+											/>
+											<span class="uppercase text-white text-[10px] block mt-2"
+												>Frutos rojos</span
+											>
+										</div>
+										<div class="flex flex-col items-center my-3">
+											<img
+												src="img/icono_maracuya.png"
+												width="50"
+												height="50"
+												alt="Fresa"
+											/>
+											<span class="uppercase text-white text-[10px] block mt-2"
+												>Maracuyá</span
+											>
+										</div>
+										<div class="flex flex-col items-center my-3">
+											<img
+												src="img/icono_durazno.png"
+												width="50"
+												height="50"
+												alt="Fresa"
+											/>
+											<span class="uppercase text-white text-[10px] block mt-2"
+												>Durazno</span
+											>
+										</div>
+										<div class="flex flex-col items-center my-3">
+											<img src="img/icono_framb.png" width="50" height="50" alt="Fresa" />
+											<span class="uppercase text-white text-[10px] block mt-2"
+												>Frambuesa</span
+											>
+										</div>
+										<div class="flex flex-col items-center my-3">
+											<img src="img/icono_mango.png" width="50" height="50" alt="Fresa" />
+											<span class="uppercase text-white text-[10px] block mt-2"
+												>Mango</span
+											>
+										</div>
+									</div>
+								</div>
+								<div
+									class="
+										col-span-1
+										md:col-span-7
+										flex
+										items-center
+										bg-white
+										md:bg-transparent
+										py-8
+									"
+								>
+									<img
+										src="img/slide1.png"
+										alt="Purés"
+										width="680"
+										height="585"
+										class="
+											w-[80%]
+											m-auto
+											md:m-0
+											md:ml-[10%]
+											lg:ml-[16%]
+											md:transform
+											md:scale-[1.4]
+											lg:scale-[1.2]
+											xl:scale-[1.1]
+										"
+									/>
+								</div>
+							</article>
+						</li>
+						<li class="splide__slide">
+							<article class="grid grid-cols-1 md:grid-cols-12 gap-8 pt-8 pb-14">
+								<div class="col-span-1 md:col-span-5 md:mt-8">
+									<h3 class="uppercase text-white font-bold text-6xl">Salsas</h3>
+									<p class="text-lg text-gray-200 mt-6 mb-7">
+										Sensación de dulce de leche o chocolate para tus creaciones en bebidas
+										y postres. Ideal para decorar o preparar bebidas frías y calientes, y
+										para decorar helados y postres. Las salsas se pueden utilizar no solo
+										para decoración, sino también como ingrediente en sus preparaciones.
+									</p>
+									<h5 class="uppercase text-white font-bold text-lg">
+										DISPONIBLE EN 2 SABORES
+									</h5>
+									<span class="block h-[2px] w-72 bg-white mt-[6px] mb-2"></span>
+									<div class="grid grid-cols-3 w-72 -ml-2">
+										<div class="flex flex-col items-center my-3">
+											<img
+												src="img/icono_dulce_de_leche.png"
+												width="50"
+												height="50"
+												alt="Fresa"
+											/>
+											<span class="uppercase text-white text-[10px] block mt-2"
+												>Dulce de leche</span
+											>
+										</div>
+										<div class="flex flex-col items-center my-3">
+											<img
+												src="img/icono_chocolate.png"
+												width="50"
+												height="50"
+												alt="Fresa"
+											/>
+											<span class="uppercase text-white text-[10px] block mt-2"
+												>Chocolate</span
+											>
+										</div>
+									</div>
+								</div>
+								<div
+									class="
+										col-span-1
+										md:col-span-7
+										flex
+										items-center
+										bg-white
+										md:bg-transparent
+										py-8
+									"
+								>
+									<img
+										src="img/slide2.png"
+										alt="Purés"
+										width="680"
+										height="604"
+										class="
+											w-[80%]
+											m-auto
+											md:m-0
+											md:ml-[10%]
+											lg:ml-[16%]
+											md:transform
+											md:scale-[1.4]
+											lg:scale-[1.2]
+											xl:scale-[1.1]
+										"
+									/>
+								</div>
+							</article>
+						</li>
+						<li class="splide__slide">
+							<article class="grid grid-cols-1 md:grid-cols-12 gap-8 pt-8 pb-14">
+								<div class="col-span-1 md:col-span-5 md:mt-14 lg:mt-20">
+									<h3 class="uppercase text-white font-bold text-6xl">Jarabes</h3>
+									<p class="text-lg text-gray-200 mt-6 mb-7">
+										¡El toque perfecto para tus creaciones frías como calientes! Ideal
+										para preparar bebidas de cafetería sin necesidad de ser un barista.
+									</p>
+									<h5 class="uppercase text-white font-bold text-lg">
+										DISPONIBLE EN 2 SABORES
+									</h5>
+									<span class="block h-[2px] w-72 bg-white mt-[6px] mb-2"></span>
+									<div class="grid grid-cols-3 w-72 -ml-2">
+										<div class="flex flex-col items-center my-3">
+											<img
+												src="img/icono_avellana.png"
+												width="50"
+												height="50"
+												alt="Fresa"
+											/>
+											<span class="uppercase text-white text-[10px] block mt-2"
+												>Avellana</span
+											>
+										</div>
+										<div class="flex flex-col items-center my-3">
+											<img
+												src="img/icono_vainilla.png"
+												width="50"
+												height="50"
+												alt="Fresa"
+											/>
+											<span class="uppercase text-white text-[10px] block mt-2"
+												>Vainilla</span
+											>
+										</div>
+									</div>
+								</div>
+								<div
+									class="
+										col-span-1
+										md:col-span-7
+										flex
+										items-center
+										bg-white
+										md:bg-transparent
+										py-8
+										md:mt-8
+										xl:mt-0
+									"
+								>
+									<img
+										src="img/slide3.png"
+										alt="Purés"
+										width="680"
+										height="604"
+										class="
+											w-[80%]
+											m-auto
+											md:m-0
+											md:ml-[10%]
+											lg:ml-[16%]
+											md:transform
+											md:scale-[1.4]
+											lg:scale-[1.2]
+											xl:scale-[1.1]
+										"
+									/>
+								</div>
+							</article>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="container">
+			<div
+				class="
+					w-full
+					h-0
+					overflow-hidden
+					absolute
+					pb-[100%]
+					md:pb-[50%]
+					lg:pb-[40%]
+					xl:pb-[35%]
+					left-0
+					z-[-2]
+				"
+			>
+				<img
+					src="img/bg-ponentes.png"
+					width="1920"
+					height="960"
+					alt="ICEHOT"
+					class="
+						w-full
+						h-full
+						absolute
+						top-0
+						left-0
+						object-cover
+						pointer-events-none
+					"
+				/>
+			</div>
+			<h2
+				class="
+					text-white text-4xl
+					uppercase
+					font-bold
+					text-center
+					pt-12
+					pb-8
+					md:pb-6
+					md:pt-20
+				"
+			>
+				Conoce a nuestros ponentes
+			</h2>
+			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 md:py-10">
+				<article class="w-full relative -mt-16 md:-mt-20">
+					<div class="mt-0">
+						<a class="block relative rounded-2xl overflow-hidden top-20">
+							<img
+								src="img/foto_alexander_loaiza.png"
+								alt="title"
+								height="240"
+								width="300"
+								class="object-cover object-center w-8/12 h-auto block m-auto"
+							/>
+						</a>
+					</div>
+					<div
+						class="
+							relative
+							inset-x-0
+							-top-10
+							z-[-2]
+							bg-gray-50
+							mx-auto
+							w-[90%]
+							richs-shadow
+							rounded-[28px]
+							text-center
+							px-6
+						"
+					>
+						<h4 class="richs-text uppercase text-lg pt-32 font-light">
+							ALEXANDER LOAIZA
+						</h4>
+						<p class="richs-text font-bold md:text-sm lg:text-xs xl:text-sm">
+							Barista y tostador
+						</p>
+						<span class="block h-[2px] w-40 richs-bg mt-3 mb-4 mx-auto"></span>
+						<p class="richs-text text-left text-sm mb-4">
+							Actualmente bartender corporativo de Rich’s Perú.
+						</p>
+						<p class="richs-text text-left text-sm mb-4">
+							<span class="font-bold">Con más de 10 años de experiencia</span> en el
+							rubro de restaurantes, bares, hoteles y catering y con un diplomado en
+							gestión de evento en el Cordon Bleu.
+						</p>
+						<p class="richs-text text-left text-sm pb-10">
+							<span class="font-bold"
+								>Concursó en el World Class Perú 2017, quedando en el TOP 10, y ganador
+								del primer puesto</span
+							>
+							del mejor cóctel 2017 en la feria Makro.
+						</p>
+					</div>
+				</article>
+				<article class="w-full relative -mt-16 md:-mt-20">
+					<div class="mt-0">
+						<a class="block relative rounded-2xl overflow-hidden top-20">
+							<img
+								src="img/foto_francisco_garcia.png"
+								alt="title"
+								height="240"
+								width="300"
+								class="object-cover object-center w-8/12 h-auto block m-auto"
+							/>
+						</a>
+					</div>
+					<div
+						class="
+							relative
+							inset-x-0
+							-top-10
+							z-[-2]
+							bg-gray-50
+							mx-auto
+							w-[90%]
+							richs-shadow
+							rounded-[28px]
+							text-center
+							px-6
+						"
+					>
+						<h4 class="richs-text uppercase text-lg pt-32 font-light">
+							FRANCISCO GARCÍA
+						</h4>
+						<p class="richs-text font-bold md:text-sm lg:text-xs xl:text-sm">
+							Barista y tostador
+						</p>
+						<span class="block h-[2px] w-40 richs-bg mt-3 mb-4 mx-auto"></span>
+						<p class="richs-text text-left text-sm mb-4">
+							<span class="font-bold"
+								>Con más de 11 años de experiencia en la industria del café, propietario
+								de la tostaduría llamado Master Coffee Perú.</span
+							>
+							Representó al Perú en el campeonato mundial de baristas en el año 2015
+							realizado por la Coffee Events en el evento SCA, Seattle - USA.
+						</p>
+						<p class="richs-text text-left text-sm pb-10">
+							<span class="font-bold"
+								>Participó en el campeonato de baristas "Global Barista Celebration
+								Championship"</span
+							>
+							organizado en Harbin, China, quedando en tercer lugar a nivel
+							mundial.Barista consultor certificado por la SCA, promotor del café
+							Peruano.
+						</p>
+					</div>
+				</article>
+				<article class="w-full relative -mt-16 md:-mt-20">
+					<div class="mt-0">
+						<a class="block relative rounded-2xl overflow-hidden top-20">
+							<img
+								src="img/foto_marco_alejandro.png"
+								alt="title"
+								height="240"
+								width="300"
+								class="object-cover object-center w-8/12 h-auto block m-auto"
+							/>
+						</a>
+					</div>
+					<div
+						class="
+							relative
+							inset-x-0
+							-top-10
+							z-[-2]
+							bg-gray-50
+							mx-auto
+							w-[90%]
+							richs-shadow
+							rounded-[28px]
+							text-center
+							px-6
+						"
+					>
+						<h4 class="richs-text uppercase text-lg pt-32 font-light">
+							MARCO ALEJANDRO ESPARZA
+						</h4>
+						<p class="richs-text font-bold md:text-sm lg:text-xs xl:text-sm">
+							E-Commerce Manager, Grupo Tabernero
+						</p>
+						<span class="block h-[2px] w-40 richs-bg mt-3 mb-4 mx-auto"></span>
+						<p class="richs-text text-left text-sm mb-4">
+							<span class="font-bold"
+								>Con más de 19 años de experiencia en Tecnologías de la
+								información,</span
+							>
+							es actual docente de postgrado de la universidad PUCP de tecnologías 4.0
+							aplicadas a los negocios y
+							<span class="font-bold"
+								>actual responsable del comercio electrónico en el Grupo Tabernero.
+							</span>
+						</p>
+						<p class="richs-text text-left text-sm mb-4">
+							Asimismo es co-autor del libro "Blockchain Is Life" y actualmente está
+							escribiendo un libro sobre Covid, Cripto & e-commerce.
+						</p>
+						<p class="richs-text text-left text-sm pb-10">
+							Experto en automatizar y optimizar procesos comerciales buscando venta
+							repetitiva.
+						</p>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<script src="splide.min.js"></script>
+		<script>
+			new Splide('.splide', {
+				type: 'fade',
+				rewind: true,
+			}).mount()
+		</script>
+	</body>
+</html>
